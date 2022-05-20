@@ -1,0 +1,49 @@
+name: starting_template
+description: The starting template for flutter projects
+
+publish_to: 'none'
+
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+  # for state management system
+  provider: ^6.0.2
+
+  # Make available all the service
+  get_it: ^7.2.0
+
+  # local encrypted storage for sensitive data
+  flutter_secure_storage: ^5.0.2
+
+  # local storage
+  shared_preferences: ^2.0.15
+
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  test: ^1.21.1
+
+  flutter_lints: ^2.0.1
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/png/
+    - assets/images/jpg/
+    - assets/images/svg/

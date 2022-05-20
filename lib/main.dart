@@ -8,6 +8,7 @@ import 'src/services/locator.dart';
 final navigatorKey = GlobalKey<NavigatorState>(); // dialog management
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   setUpServices();
 
   runApp(MultiProvider(providers: [

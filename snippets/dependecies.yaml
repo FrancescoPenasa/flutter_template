@@ -13,3 +13,23 @@ dependencies:
   flutter_launcher_icons: ^0.12.0
   flutter_native_splash: ^2.2.19
 
+  # store login token
+  flutter_secure_storage: ^8.0.0
+  shared_preferences: ^2.0.18
+
+  # state 
+  provider: ^6.0.5
+  get_it: ^7.2.0
+
+  # device info for login
+  device_info_plus: 8.1.0
+  uuid: ^3.0.7
+
+  # utility
+  cached_network_image: ^3.2.3
+  flutter_cache_manager: ^3.3.0
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+
+  # ui
+  awesome_dialog: ^3.0.2

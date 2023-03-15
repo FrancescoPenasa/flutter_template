@@ -1,0 +1,15 @@
+
+
+
+dependencies:
+
+  # https://pub.dev/packages/rename
+  rename: ^2.1.1
+  shared_preferences: ^2.0.18
+
+
+  # === SPECIAL INSTALL PROCESS === *
+  intl: ^0.18.0
+  flutter_launcher_icons: ^0.12.0
+  flutter_native_splash: ^2.2.19
+

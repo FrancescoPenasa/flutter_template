@@ -26,3 +26,5 @@ Modified:
 `C:\Users\alp9\StudioProjects\starting_template\android\app\build.gradle`
 from `minSdkVersion flutter.minSdkVersion` to `minSdkVersion 18` // for flutter_secure_storage 
 
+# TODO 
+- separate authentication in a different package

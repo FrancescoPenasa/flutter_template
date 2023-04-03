@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 
 import 'src/providers/auth_prov.dart';
 import 'src/providers/user_prov.dart';
-import 'src/services/locator.dart';
+import 'src/utils/locator.dart';
 
 final navigatorKey = GlobalKey<NavigatorState>(); // dialog management
 
